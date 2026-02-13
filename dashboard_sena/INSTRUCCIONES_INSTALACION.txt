@@ -1,0 +1,113 @@
+═══════════════════════════════════════════════════════════════════
+  DASHBOARD ADMINISTRATIVO SENA - INSTRUCCIONES DE INSTALACIÓN
+═══════════════════════════════════════════════════════════════════
+
+📋 REQUISITOS PREVIOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ XAMPP instalado (Apache + MySQL + PHP 7.4+)
+✓ Navegador web moderno (Chrome, Firefox, Edge)
+
+📦 PASO 1: COPIAR ARCHIVOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Copiar la carpeta completa "dashboard_sena" a:
+   C:\xampp\htdocs\
+
+   Resultado: C:\xampp\htdocs\dashboard_sena\
+
+🗄️ PASO 2: CREAR BASE DE DATOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Iniciar XAMPP Control Panel
+2. Iniciar servicios: Apache y MySQL
+3. Abrir navegador e ir a: http://localhost/phpmyadmin
+4. Click en "Nuevo" (crear base de datos)
+5. Nombre: dashboard_sena
+6. Cotejamiento: utf8mb4_unicode_ci
+7. Click en "Crear"
+8. Seleccionar la base de datos "dashboard_sena"
+9. Click en pestaña "Importar"
+10. Click en "Seleccionar archivo"
+11. Buscar: C:\xampp\htdocs\dashboard_sena\database.sql
+12. Click en "Continuar"
+13. Esperar mensaje: "Importación finalizada correctamente"
+
+⚙️ PASO 3: VERIFICAR CONFIGURACIÓN (OPCIONAL)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Si usa credenciales diferentes a las predeterminadas:
+
+1. Abrir: dashboard_sena/conexion.php
+2. Modificar si es necesario:
+   - DB_HOST: 'localhost'
+   - DB_NAME: 'dashboard_sena'
+   - DB_USER: 'root'
+   - DB_PASS: '' (vacío por defecto)
+
+🚀 PASO 4: ACCEDER AL SISTEMA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Abrir navegador
+2. Ir a: http://localhost/dashboard_sena/
+3. ¡Listo! El dashboard debe cargar correctamente
+
+📊 MÓDULOS DISPONIBLES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Programas
+✓ Fichas
+✓ Instructores
+✓ Ambientes
+✓ Asignaciones
+✓ Competencias
+✓ Competencia-Programa
+✓ Detalle Asignación
+✓ Sedes
+✓ Coordinación
+✓ Centro Formación
+✓ Título Programa
+
+🎨 PALETA DE COLORES SENA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Verde Principal: #39A900
+• Verde Secundario: #007832
+• Fondos: Blanco con detalles verdes
+
+🔧 SOLUCIÓN DE PROBLEMAS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+❌ Error: "No se puede conectar a la base de datos"
+   → Verificar que MySQL esté iniciado en XAMPP
+   → Verificar credenciales en conexion.php
+
+❌ Página en blanco
+   → Activar display_errors en php.ini
+   → Verificar logs de error de Apache
+
+❌ Estilos no cargan
+   → Verificar ruta en header.php
+   → Limpiar caché del navegador (Ctrl + F5)
+
+❌ Error 404
+   → Verificar que la carpeta esté en htdocs
+   → Verificar URL: http://localhost/dashboard_sena/
+
+📝 DATOS DE PRUEBA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+El archivo database.sql incluye datos de ejemplo:
+• 2 Centros de Formación
+• 2 Sedes
+• 3 Títulos de Programa
+• 2 Programas
+• 2 Instructores
+• 2 Ambientes
+• 2 Competencias
+
+✅ VERIFICACIÓN EXITOSA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Si ve el dashboard con:
+✓ Sidebar verde a la izquierda
+✓ Navbar blanca con borde verde arriba
+✓ Cards de estadísticas
+✓ Tabla de últimas asignaciones
+✓ Menú lateral funcional
+
+¡La instalación fue exitosa!
+
+═══════════════════════════════════════════════════════════════════
+Para soporte adicional, consultar README.md
+═══════════════════════════════════════════════════════════════════

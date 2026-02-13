@@ -1,0 +1,93 @@
+═══════════════════════════════════════════════════════════════════
+  CÓMO VISUALIZAR EL DASHBOARD SENA EN TU NAVEGADOR
+═══════════════════════════════════════════════════════════════════
+
+📋 PASO 1: VERIFICAR XAMPP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Abrir XAMPP Control Panel
+2. Iniciar servicios:
+   ✓ Apache (botón "Start")
+   ✓ MySQL (botón "Start")
+3. Verificar que ambos estén en verde
+
+📁 PASO 2: COPIAR ARCHIVOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Copiar la carpeta completa "dashboard_sena" 
+2. Pegarla en: C:\xampp\htdocs\
+3. Resultado: C:\xampp\htdocs\dashboard_sena\
+
+🗄️ PASO 3: CREAR BASE DE DATOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Abrir navegador
+2. Ir a: http://localhost/phpmyadmin
+3. Click en "Nuevo" (crear base de datos)
+4. Nombre: dashboard_sena
+5. Cotejamiento: utf8mb4_unicode_ci
+6. Click "Crear"
+7. Seleccionar la BD "dashboard_sena"
+8. Click en pestaña "Importar"
+9. Click "Seleccionar archivo"
+10. Buscar: C:\xampp\htdocs\dashboard_sena\database.sql
+11. Click "Continuar"
+12. Esperar mensaje de éxito
+
+🌐 PASO 4: ABRIR EN NAVEGADOR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Abrir navegador y visitar:
+
+http://localhost/dashboard_sena/
+
+¡Deberías ver el Dashboard con diseño verde SENA!
+
+✅ VERIFICACIÓN EXITOSA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Si ves:
+✓ Sidebar verde a la izquierda
+✓ Navbar blanca con borde verde arriba
+✓ 5 cards de estadísticas
+✓ Tabla de últimas asignaciones
+✓ Menú lateral funcional
+
+¡La instalación fue exitosa!
+
+🔗 ENLACES DIRECTOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Dashboard:        http://localhost/dashboard_sena/
+Programas:        http://localhost/dashboard_sena/views/programa/index.php
+Fichas:           http://localhost/dashboard_sena/views/ficha/index.php
+Instructores:     http://localhost/dashboard_sena/views/instructor/index.php
+Ambientes:        http://localhost/dashboard_sena/views/ambiente/index.php
+Asignaciones:     http://localhost/dashboard_sena/views/asignacion/index.php
+Competencias:     http://localhost/dashboard_sena/views/competencia/index.php
+Sedes:            http://localhost/dashboard_sena/views/sede/index.php
+Centro Formación: http://localhost/dashboard_sena/views/centro_formacion/index.php
+Título Programa:  http://localhost/dashboard_sena/views/titulo_programa/index.php
+
+🎮 PRUEBA EL SISTEMA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Click en "Programas" en el menú lateral
+2. Click en "+ Nuevo Programa"
+3. Llenar formulario y guardar
+4. Ver el nuevo registro en la tabla
+5. Probar botones: Ver, Editar, Eliminar
+
+🚨 SOLUCIÓN DE PROBLEMAS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+❌ Error: "No se puede conectar"
+   → Verificar que MySQL esté iniciado en XAMPP
+   → Verificar que la BD "dashboard_sena" exista
+
+❌ Página en blanco
+   → Verificar que Apache esté iniciado
+   → Verificar ruta: C:\xampp\htdocs\dashboard_sena\
+
+❌ Error: "Table doesn't exist"
+   → Importar database.sql en phpMyAdmin
+
+❌ Estilos no cargan
+   → Verificar que exista: dashboard_sena/assets/css/styles.css
+   → Presionar Ctrl + F5 (limpiar caché)
+
+═══════════════════════════════════════════════════════════════════
+¡Disfruta tu Dashboard SENA! 🎓
+═══════════════════════════════════════════════════════════════════
