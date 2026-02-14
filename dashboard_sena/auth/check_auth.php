@@ -6,14 +6,14 @@ if (session_status() === PHP_SESSION_NONE) {
 
 // Verificar si el usuario está logueado
 if (!isset($_SESSION['usuario_id'])) {
-    header('Location: /dashboard_sena/auth/login.php');
+    header('Location: /Gestion-sena/auth/login.php');
     exit;
 }
 
 // Función para verificar rol
 function verificarRol($rolesPermitidos) {
     if (!in_array($_SESSION['usuario_rol'], $rolesPermitidos)) {
-        header('Location: /dashboard_sena/index.php?error=acceso_denegado');
+        header('Location: /Gestion-sena/index.php?error=acceso_denegado');
         exit;
     }
 }

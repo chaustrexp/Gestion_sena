@@ -1,202 +1,185 @@
-═══════════════════════════════════════════════════════════════════
-  DASHBOARD ADMINISTRATIVO SENA - ESTADO FINAL DEL PROYECTO
-═══════════════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════════
+  ✅ SOLUCIÓN UTF-8 COMPLETADA - Dashboard SENA
+═══════════════════════════════════════════════════════════════
 
-📊 RESUMEN GENERAL
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-✅ Base de Datos: 100% Completa (13 tablas con relaciones)
-✅ Modelos MVC: 100% Completos (13 modelos)
-✅ Vistas CRUD: 85% Completas (11/13 módulos)
-✅ Diseño UI: 100% Completo (Paleta SENA)
-✅ Dashboard Principal: 100% Funcional
+📋 ARCHIVOS CREADOS Y COPIADOS AL SERVIDOR:
 
-🗄️ BASE DE DATOS (100%)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-✅ database.sql - Script completo con:
-   • 13 tablas con relaciones FK
-   • Datos de ejemplo incluidos
-   • Índices y constraints
-   • Charset UTF-8
+1. ✅ SOLUCION_UTF8.md
+   📍 C:\xampp\htdocs\Gestion-sena\SOLUCION_UTF8.md
+   📝 Guía completa con explicación del problema y soluciones
 
-🔧 MODELOS (100% - 13/13)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-✅ ProgramaModel.php
-✅ FichaModel.php
-✅ InstructorModel.php
-✅ AmbienteModel.php
-✅ AsignacionModel.php
-✅ CompetenciaModel.php
-✅ CompetenciaProgramaModel.php
-✅ DetalleAsignacionModel.php
-✅ SedeModel.php
-✅ CoordinacionModel.php
-✅ CentroFormacionModel.php
-✅ TituloProgramaModel.php
+2. ✅ corregir_datos_utf8.php
+   📍 C:\xampp\htdocs\Gestion-sena\corregir_datos_utf8.php
+   🔧 Script PHP automático con interfaz visual
 
-Todos incluyen:
-• getAll() - Listar con JOIN
-• getById() - Obtener por ID
-• create() - Insertar
-• update() - Actualizar
-• delete() - Eliminar
-• count() - Contar registros (algunos)
+3. ✅ corregir_utf8.sql
+   📍 C:\xampp\htdocs\Gestion-sena\corregir_utf8.sql
+   💾 Script SQL para ejecutar en phpMyAdmin
 
-👁️ VISTAS CRUD COMPLETAS (11/13 - 85%)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-✅ 1. Programa (index, crear, editar, ver)
-✅ 2. Ficha (index, crear, editar, ver)
-✅ 3. Instructor (index, crear, editar, ver)
-✅ 4. Ambiente (index, crear, editar, ver)
-✅ 5. Asignación (index, crear, editar, ver)
-✅ 6. Competencia (index, crear, editar, ver)
-✅ 7. Sede (index, crear, editar, ver)
-✅ 8. Centro Formación (index, crear, editar, ver)
-✅ 9. Título Programa (index, crear, editar, ver)
-✅ 10. Dashboard Principal (estadísticas + tabla)
+═══════════════════════════════════════════════════════════════
+  🚀 CÓMO EJECUTAR LA REPARACIÓN
+═══════════════════════════════════════════════════════════════
 
-⚠️ VISTAS PENDIENTES (3 módulos)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⏳ 11. Coordinación (modelo listo, crear 4 vistas)
-⏳ 12. Competencia_Programa (modelo listo, crear 4 vistas)
-⏳ 13. Detalle_Asignación (modelo listo, crear 4 vistas)
+OPCIÓN 1: Script PHP Automático (RECOMENDADO)
+──────────────────────────────────────────────
+1. Abre tu navegador
+2. Ve a: http://localhost/Gestion-sena/corregir_datos_utf8.php
+3. El script se ejecutará automáticamente
+4. Verás un reporte visual del proceso
+5. ¡Listo! Los datos estarán reparados
 
-Tiempo estimado: 45 minutos
-Dificultad: Baja (copiar y adaptar código existente)
+OPCIÓN 2: Script SQL Manual
+──────────────────────────────────────────────
+1. Abre phpMyAdmin: http://localhost/phpmyadmin
+2. Selecciona la base de datos "dashboard_sena"
+3. Click en la pestaña "SQL"
+4. Abre el archivo: C:\xampp\htdocs\Gestion-sena\corregir_utf8.sql
+5. Copia todo el contenido
+6. Pégalo en phpMyAdmin
+7. Click en "Continuar"
 
-🎨 DISEÑO UI (100%)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-✅ Paleta SENA (#39A900, #007832)
-✅ Sidebar verde lateral fijo
-✅ Navbar blanca con borde verde
-✅ Cards estadísticas con borde verde
-✅ Tablas con encabezado verde
-✅ Botones verdes con hover
-✅ Formularios estilizados
-✅ Responsive (PC/Tablet/Móvil)
-✅ Mensajes de éxito/error
-✅ Confirmación JavaScript
+═══════════════════════════════════════════════════════════════
+  📝 RESPUESTAS A TUS PREGUNTAS
+═══════════════════════════════════════════════════════════════
 
-📁 ESTRUCTURA DE ARCHIVOS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-dashboard_sena/
-├── ✅ index.php (Dashboard principal)
-├── ✅ conexion.php (PDO singleton)
-├── ✅ database.sql (Script BD)
-├── ✅ README.md (Documentación)
-├── ✅ INSTRUCCIONES_INSTALACION.txt
-├── ✅ GUIA_COMPLETAR_VISTAS.md
-├── ✅ RESUMEN_PROYECTO.md
-├── ✅ generar_vistas.php (Script generador)
-│
-├── model/ (13 archivos ✅)
-├── views/
-│   ├── layout/ (3 archivos ✅)
-│   ├── programa/ (4 archivos ✅)
-│   ├── ficha/ (4 archivos ✅)
-│   ├── instructor/ (4 archivos ✅)
-│   ├── ambiente/ (4 archivos ✅)
-│   ├── asignacion/ (4 archivos ✅)
-│   ├── competencia/ (4 archivos ✅)
-│   ├── sede/ (4 archivos ✅)
-│   ├── centro_formacion/ (4 archivos ✅)
-│   ├── titulo_programa/ (4 archivos ✅)
-│   ├── coordinacion/ (⚠️ crear 4 archivos)
-│   ├── competencia_programa/ (⚠️ crear 4 archivos)
-│   └── detalle_asignacion/ (⚠️ crear 4 archivos)
-│
-└── assets/css/ (1 archivo ✅)
+1️⃣ CONEXIÓN A BD (PDO):
+──────────────────────────────────────────────
+<?php
+$conn = new PDO(
+    "mysql:host=localhost;dbname=dashboard_sena;charset=utf8mb4",
+    "root",
+    "",
+    [
+        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+        PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8mb4"
+    ]
+);
+?>
 
-✨ FUNCIONALIDADES IMPLEMENTADAS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-✅ Dashboard con 5 cards estadísticas
-✅ Tabla de últimas asignaciones
-✅ Navegación completa en sidebar (13 módulos)
-✅ CRUD completo en 11 módulos:
-   • Listar con tabla responsive
-   • Crear con formularios validados
-   • Editar con datos precargados
-   • Ver detalle completo
-   • Eliminar con confirmación JS
-✅ Mensajes de feedback (creado/actualizado/eliminado)
-✅ Relaciones entre tablas con JOIN
-✅ Consultas preparadas (PDO)
-✅ Arquitectura MVC limpia
-✅ Sin frameworks (PHP puro)
+✅ Tu archivo conexion.php YA TIENE ESTO CORRECTO
 
-🚀 INSTALACIÓN
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1. Copiar dashboard_sena/ a C:\xampp\htdocs\
-2. Importar database.sql en phpMyAdmin
-3. Acceder a http://localhost/dashboard_sena/
-4. ¡Listo! El sistema está funcional
+──────────────────────────────────────────────
 
-📝 PARA COMPLETAR AL 100%
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Crear 3 carpetas en views/:
-• coordinacion/
-• competencia_programa/
-• detalle_asignacion/
+1️⃣ CONEXIÓN A BD (MySQLi - Alternativa):
+──────────────────────────────────────────────
+<?php
+$conexion = new mysqli("localhost", "root", "", "dashboard_sena");
+$conexion->set_charset("utf8mb4");
+?>
 
-Para cada carpeta, crear 4 archivos:
-• index.php (copiar de views/ambiente/index.php)
-• crear.php (copiar de views/ambiente/crear.php)
-• editar.php (copiar de views/ambiente/editar.php)
-• ver.php (copiar de views/ambiente/ver.php)
+──────────────────────────────────────────────
 
-Adaptar:
-• Nombre del modelo
-• Campos del formulario
-• Columnas de la tabla
-• Relaciones (si aplica)
+2️⃣ META TAG HTML:
+──────────────────────────────────────────────
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-Ver GUIA_COMPLETAR_VISTAS.md para detalles.
+✅ Tu archivo header.php YA TIENE ESTO CORRECTO
 
-🎯 CAMPOS PENDIENTES
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Coordinación:
-• nombre, centro_formacion_id, responsable
+──────────────────────────────────────────────
 
-Competencia_Programa:
-• competencia_id, programa_id, horas
+3️⃣ HEADER PHP:
+──────────────────────────────────────────────
+<?php
+header('Content-Type: text/html; charset=UTF-8');
+mb_internal_encoding('UTF-8');
+?>
 
-Detalle_Asignación:
-• asignacion_id, fecha, hora_inicio, hora_fin, observaciones
+✅ Tu archivo header.php YA TIENE ESTO CORRECTO
 
-✅ LOGROS DEL PROYECTO
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-✓ Arquitectura MVC profesional
-✓ 13 modelos con métodos CRUD
-✓ 11 módulos completamente funcionales
-✓ Dashboard con estadísticas en tiempo real
-✓ Diseño institucional SENA
-✓ Responsive design
-✓ Base de datos normalizada con relaciones
-✓ Código limpio y comentado
-✓ Documentación completa
-✓ Datos de ejemplo incluidos
-✓ Listo para producción (85%)
+──────────────────────────────────────────────
 
-📊 MÉTRICAS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-• Archivos PHP: 60+
-• Líneas de código: ~3,500
-• Tablas BD: 13
-• Modelos: 13
-• Vistas CRUD: 44 archivos (de 52 totales)
-• Tiempo desarrollo: ~3 horas
-• Tiempo para completar: ~45 minutos
+4️⃣ COMANDO SQL PARA CAMBIAR COLLATION:
+──────────────────────────────────────────────
+-- Convertir base de datos completa
+ALTER DATABASE dashboard_sena 
+CHARACTER SET utf8mb4 
+COLLATE utf8mb4_unicode_ci;
 
-🏆 CALIDAD DEL CÓDIGO
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-✓ PDO con prepared statements (seguridad)
-✓ Singleton pattern en conexión
-✓ Separación de responsabilidades (MVC)
-✓ Código reutilizable
-✓ Nombres descriptivos
-✓ Estructura organizada
-✓ Sin dependencias externas
+-- Convertir una tabla específica
+ALTER TABLE nombre_tabla 
+CONVERT TO CHARACTER SET utf8mb4 
+COLLATE utf8mb4_unicode_ci;
 
-═══════════════════════════════════════════════════════════════════
-CONCLUSIÓN: Proyecto funcional al 85%, listo para usar.
-Solo faltan 3 módulos secundarios (45 min de trabajo).
-═══════════════════════════════════════════════════════════════════
+-- Convertir todas las tablas (ejemplo)
+ALTER TABLE usuarios CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE centro_formacion CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE sede CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+-- ... (continúa con todas las tablas)
+
+📝 NOTA: El script corregir_utf8.sql YA TIENE TODOS LOS COMANDOS
+
+═══════════════════════════════════════════════════════════════
+  ⚠️ IMPORTANTE: DIAGNÓSTICO DEL PROBLEMA
+═══════════════════════════════════════════════════════════════
+
+❌ PROBLEMA ACTUAL:
+   Ves: AnÃ¡lisis, TecnologÃ­a, GestiÃ³n
+
+✅ RESULTADO ESPERADO:
+   Verás: Análisis, Tecnología, Gestión
+
+🔍 CAUSA:
+   Doble codificación UTF-8 en los datos de la base de datos
+   Los datos se guardaron incorrectamente desde el inicio
+
+💡 SOLUCIÓN:
+   1. Convertir estructura de tablas a UTF-8 (collation)
+   2. Reparar datos ya corruptos (doble codificación)
+   3. Tu configuración PHP ya está correcta
+
+═══════════════════════════════════════════════════════════════
+  🎯 VERIFICACIÓN DESPUÉS DE EJECUTAR
+═══════════════════════════════════════════════════════════════
+
+1. Abre phpMyAdmin
+2. Selecciona la base de datos "dashboard_sena"
+3. Abre cualquier tabla (ejemplo: programa)
+4. Verifica que los datos se vean correctos
+
+5. Abre tu aplicación: http://localhost/Gestion-sena/
+6. Verifica que las tablas muestren texto correcto
+
+7. Crea un nuevo registro con tildes y ñ
+8. Verifica que se guarde y muestre correctamente
+
+═══════════════════════════════════════════════════════════════
+  📊 RESUMEN DE CONFIGURACIÓN
+═══════════════════════════════════════════════════════════════
+
+✅ PHP Configuración:
+   • header('Content-Type: text/html; charset=UTF-8')
+   • mb_internal_encoding('UTF-8')
+   • PDO charset=utf8mb4
+
+✅ HTML Configuración:
+   • <meta charset="UTF-8">
+   • <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+⚠️ Base de Datos (NECESITA REPARACIÓN):
+   • Estructura: Convertir a utf8mb4_unicode_ci
+   • Datos: Reparar doble codificación
+
+═══════════════════════════════════════════════════════════════
+  📞 SOPORTE ADICIONAL
+═══════════════════════════════════════════════════════════════
+
+Si después de ejecutar el script sigues viendo problemas:
+
+1. Verifica Apache (httpd.conf):
+   AddDefaultCharset UTF-8
+
+2. Verifica PHP (php.ini):
+   default_charset = "UTF-8"
+
+3. Reinicia Apache después de cambios
+
+4. Limpia caché del navegador (Ctrl + F5)
+
+═══════════════════════════════════════════════════════════════
+
+Fecha: 13 de febrero de 2026
+Sistema: Dashboard SENA - Gestión de Asignaciones
+Versión: 1.0
+
+═══════════════════════════════════════════════════════════════
