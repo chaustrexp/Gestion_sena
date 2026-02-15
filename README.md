@@ -76,18 +76,9 @@ cp -r dashboard_sena /opt/lampp/htdocs/
 2. Crear nueva base de datos: `dashboard_sena`
 3. Importar el archivo: `dashboard_sena/database.sql`
 
-### 4. Configurar Conexión
 
-Editar `dashboard_sena/conexion.php` si es necesario:
 
-```php
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'dashboard_sena');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-```
-
-### 5. Acceder al Sistema
+### 4. Acceder al Sistema
 
 ```
 http://localhost/dashboard_sena/auth/login.php
